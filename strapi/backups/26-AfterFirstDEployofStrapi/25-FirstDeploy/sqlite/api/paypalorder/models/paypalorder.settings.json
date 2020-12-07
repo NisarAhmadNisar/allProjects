@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paypalorders",
+  "info": {
+    "name": "paypalorder"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "recipient_name": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

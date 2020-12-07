@@ -1,0 +1,28 @@
+{
+  "name": "contactmanager",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://NisarAhmad3366.github.io/ContactManager",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^2.1.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "0.9.5",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

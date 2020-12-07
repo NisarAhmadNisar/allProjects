@@ -1,0 +1,1 @@
+solve the firestoreConnect() error in Client.js last lines

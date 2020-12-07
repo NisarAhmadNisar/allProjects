@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/paypalorders",
+      "handler": "paypalorder.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/paypalorders/count",
+      "handler": "paypalorder.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/paypalorders/:id",
+      "handler": "paypalorder.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/paypalorders",
+      "handler": "paypalorder.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/paypalorders/:id",
+      "handler": "paypalorder.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/paypalorders/:id",
+      "handler": "paypalorder.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

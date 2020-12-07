@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shippingaddresses",
+  "info": {
+    "name": "shippingaddress"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "address": {
+      "type": "richtext",
+      "required": true
+    },
+    "landmark": {
+      "type": "richtext"
+    },
+    "zipcode": {
+      "type": "integer"
+    },
+    "district": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shippingaddresses",
+      "handler": "shippingaddress.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shippingaddresses/count",
+      "handler": "shippingaddress.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shippingaddresses/:id",
+      "handler": "shippingaddress.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/shippingaddresses",
+      "handler": "shippingaddress.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/shippingaddresses/:id",
+      "handler": "shippingaddress.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/shippingaddresses/:id",
+      "handler": "shippingaddress.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
